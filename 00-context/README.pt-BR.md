@@ -92,7 +92,7 @@ designada a você como mentorada. (1 sessão de revisão e 1 sessão de acompanh
  recrutamento abertos.
 
 
-**Nesta [seção]([../01-hr-mentoring/interviewer-guide/README.md](https://github.com/merunga/job-application-public/blob/translation-pt/01-hr-mentoring/interviewer-guide/README.md))
+**Nesta [seção](../01-hr-mentoring/interviewer-guide/README.pt-BR.md)
 você poderá consultar os objetivos a serem alcançados com a 
 revisão e feedback das ferramentas com a simulação.**
 
