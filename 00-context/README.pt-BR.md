@@ -70,7 +70,7 @@ e-mail para a pessoa de contato da Laboratória que lhe enviou o convite.
 ## Mentorias de Recursos Humanos
 
 Quem participa das **mentorias e simulações de entrevistas de recurso
-humanos** investirá cerca de 5 a 6 horas no total para gerenciar e realizar 
+humanos** investirá cerca de _5 a 6 horas no total_ para gerenciar e realizar 
 sessões com as estudantes, bem como documentar feedback para elas e 
 para a equipe da Laboratória.
 
