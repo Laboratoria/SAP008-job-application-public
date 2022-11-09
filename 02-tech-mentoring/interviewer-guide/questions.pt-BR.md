@@ -1,79 +1,74 @@
-# Preguntas conceptuales
+# Perguntas conceituais
 
 ## HTML / CSS
 
-* ¿Para qué se usan los `data-attributes`?
+* Para que são usados os `data-attributes`?
 
-* ¿Por qué es importante no abusar de los `divs`?
+* Por que é importante não abusar do uso de `divs`?
 
-* Explica con un ejemplo qué son los `media queries`.
+* Explique com um exemplo o que são `media queries`.
 
-* ¿Cuándo recomiendas (contexto flexbox - grid layout) usar `justify-content` o
+* Quando você recomenda (contexto flexbox - grid layout) usar `justify-content` ou
    `align-items`?
 
 ## Javascript
 
-* Explica, con varios ejemplos, lo que se entiende por `execution context`
-   (contexto de ejecución), `lexical scope` (ámbito léxico) y `closure`
-   (clausura).
+* Explique, com vários exemplos, o que se entende por `execution context`
+   (contexto de execução), `lexical scope` (escopo léxico) y `closure`.
 
-* Explica qué es y para qué sirve `const` con un argumento diferente a "lo uso
-   cuando una variable no cambia su valor".
+* Explique que é e para que serve `const` com um argumento diferente de “eu uso
+   quando uma variável não muda seu valor".
 
-* Si tienes tres `console.log` consecutivos, pero el segundo está dentro de un
-   `setTimeout`, terminará imprimiéndose al final de todos. Explica por qué.
+* Se temos três `console.log` consecutivos, mas o segundo está dentro de um
+   `setTimeout`, ele terminará impresso ao final de todos. Explique por quê.
 ```js
 console.log('log 1');
 setTimeout(() => console.log('log 2'), 0);
 console.log('log 3');
 ```
 
-* ¿Cuál es la diferencia entre _función_ como _sentencia_ o _expresión_?
+* Qual é a diferença entre _função_ como _sentença_ o _expressão_?
 
-* Explica con un ejemplo cómo manejas llamadas asíncronas con _callbacks_ y
-   _promesas_.
+* Explique com um exemplo como manejar chamadas assíncronas _callbacks_ e
+   _promises_.
 
-* ¿Cómo le explicarías a tu mamá/papá _qué es una función_?, ¿por qué
-    querríamos usar una función?, y ¿qué ejemplos usarías para ilustrar los
-    conceptos?
+* Como você explicaria para sua mãe/pai _o que é uma função_? Por que
+    usar uma função? Que exemplos você usaria para ilustrar
+    o conceito?
 
-* En tus propias palabras, cómo explicarías:
+* Em suas palavras, como explicaria:
 
-    * ¿Por qué en JavaScript tenemos 3 palabras reservadas para declarar
-      variables (`var`, `let` y `const`)?
-    * ¿Cuáles son las diferencias entre ellas con algunos ejemplos?
+    * Por que no JavaScript temos três palavras reservadas para declarar
+      variáveis (`var`, `let` e `const`)?
+    * Quais são as diferenças entre elas, com alguns exemplos?
 
-* Explica en tus palabras el concepto de _iteración_ en programación.
+* Explique, em suas palavras, o conceito de _iteração_ na programação.
 
-* ¿A qué nos referimos cuando hablamos de valores _truthy_ y _falsy_ en
+* A que nos referimos quando falamos de valores _true_ e _false_ em
     JavaScript?
 
-* Preguntas sobre métodos de arreglos (`Array.prototype`). Aquí las
-    posibilidades son múltiples, algunos ejemplos:
+* Perguntas sobre métodos de arrays (`Array.prototype`). Aqui as
+    possibilidades são múltiplas, por exemplo:
 
-   * Explica con un ejemplo cómo `.map` es distinto de `.forEach`?
-   * Explica con un ejemplo cómo `.map` es distinto de `.filter`?
-   * Explica con un ejemplo cómo funciona el método `.reduce`?
+   * Explique com um exemplo como `.map` é diferente de `.forEach`?
+   * Explique com um exemplo como `.map` é diferente de `.filter`?
+   * Explique com um exemplo como funciona o método `.reduce`?
 
 ## Node.js
 
-* ¿Qué es Node.js y cómo se diferencia de JavaScript en el explorador?
+* O que é Node.js e como se diferencia de JavaScript no navegador?
 
-* Usando tus propias palabras, describe qué es y para que podemos usar el ENVIRONMENT
+* Existe alguma diferença entre dependencies e devDependencies no arquivo package.json?
 
-* ¿Existe alguna diferencia entre dependencies y devDependencies en el package.json?
+* No `package.json`, para que servem os scripts?
 
-* En el `package.json`, ¿para qué sirven los scripts?
+* O que é NPM? Como é usado?
 
-* ¿Qué es NPM? y ¿Cómo se usa?
+* Você teve experiência usando os módulos FS e PATH? Para que serve cada um?
 
-* ¿Has tenido experiencia usando los módulos FS y PATH? Para qué sirve cada uno?
-
-* ¿Has utilizado Socket.io? ¿Puedes describir su funcionalidad?
-
-* Dado el siguiente servidor HTTP implementado con Node.js, podrías explicar
-  qué significa que estamos _bloqueando el bucle de eventos (event loop)_ y
-  cómo podríamos hacer para evitar bloquearlo?
+* Dado o servidor HTTP implementado com Node.js, você poderia explicar
+  o que significa dizer que estamos _bloqueando o loop de eventos (event loop)_ e
+  o que podemos fazer para evitar o bloqueio?
 
   ```js
   const { createServer } = require('http');
@@ -91,9 +86,9 @@ console.log('log 3');
   server.listen(3333);
   ```
 
-* Dado el siguiente _módulo_ de Node.js, y asumiendo que `doSomethingAsync` sea
-  una función asíncrona que hace uso de un _callback_ al estilo de Node.js, qué
-  problema le ves esta implementación?
+* Dado o seguinte _módulo_ de Node.js, e assumindo que `doSomethingAsync` seja
+  uma função assíncrona que faz uso de um _callback_ ao estilo de Node.js, que
+  problema você vê nessa implementação?
 
   ```js
   module.exports = (cb) => {
@@ -106,44 +101,34 @@ console.log('log 3');
   };
   ```
 
-## Docker
-
-* ¿Qué es Docker?
-
-* ¿Qué es una imagen/contenedor en Docker?
-
-* ¿Para qué sirve Docker Compose?
-
-* ¿Pudes describir algunas de las partes típicas de un `docker-compose.yml`?
-
 ## ExpressJS
 
-* ¿Qué es ExpressJS?
+* O que é ExpressJS?
 
-* ¿Qué es una ruta?
+* O que é uma rota?
 
-* ¿Qué es un middleware?
+* O que é um middleware?
 
-* ¿Puedes mostrar un ejemplo de cómo agregar un middleware de forma global?
+* Pode dar um exemplo de como agregar um middleware de forma global?
 
-* ¿Puedes mostrar un ejemplo de cómo agregar un middleware a una sola ruta?
+* Pode dar um exemplo de como agregar um middleware para uma única rota?
 
-* ¿Qué es CORS?
+* O que é CORS?
 
-* ¿Qué conforma normalmente un controlador en ExpressJS?
+* O que normalmente compõe um controller em ExpressJS?
 
-* ¿Sabes qué significan las siglas CRUD?
+* Você sabe o significado de CRUD?
 
-* ¿A qué nos referimos cuando hablamos de una API REST o RESTful?
+* A que nos referimos quando falamos de um API REST ou RESTful?
 
 ## HTTP
 
-* ¿Cómo describirías un request/response?
+* Como descreveria um request/response?
 
-* ¿Qué son los Headers?
+* O que são os Headers?
 
-* ¿Qué es el Body?
+* O que é Body?
 
-* ¿Qué verbos HTTP conoces y para qué se usan?
+* Que verbos HTTP conhece e para quê são usados?
 
-* ¿Qué son los códigos de estatus y cuáles conoces?
+* Quais são os códigos de status e quais você conhece?
